@@ -4,7 +4,7 @@ import javax.validation.constraints.Pattern;
 
 public class CardData {
 
-	@Pattern(regexp = "\\d{16}", message = "O cart„o informado n„o È v·lido.")
+	@Pattern(regexp = "\\d{16}", message = "O cart√£o informado n√£o √© v√°lido.")
 	private String number;
 
 	public String getNumber() {

@@ -26,7 +26,7 @@ public class SBPayService {
 			Errors errors){
 		
 		if(!AUTH_TOKEN.equals(token)) {
-			return ResponseEntity.badRequest().body(new PaymentResponse("Token inv·lido"));
+			return ResponseEntity.badRequest().body(new PaymentResponse("Token inv√°lido"));
 		}
 		
 		if(errors.hasErrors()) {
